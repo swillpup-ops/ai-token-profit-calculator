@@ -1,3 +1,5 @@
+import "./globals.css";
+
 export const metadata = {
   title: "AI Token Profit Calculator",
   description: "See your real costs before you build the thing.",
