@@ -17,19 +17,8 @@ export default function Home() {
             Get updates, improvements, and future tools.
           </p>
 
-          <div className="mt-4 flex flex-col sm:flex-row gap-3 justify-center">
-            <input
-              type="email"
-              placeholder="Enter your email"
-              className="rounded-xl border border-slate-300 px-4 py-3 w-full sm:w-80 text-sm"
-            />
-
-            <button
-              onClick={() => alert("We’ll hook this up next")}
-              className="rounded-xl bg-blue-600 px-5 py-3 text-sm font-semibold text-white hover:bg-blue-700"
-            >
-              Get Access
-            </button>
+          <div className="mt-6">
+            <div className="ml-embedded" data-form="DXIMd2"></div>
           </div>
         </div>
       </section>
